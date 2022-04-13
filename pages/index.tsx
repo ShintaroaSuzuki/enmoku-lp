@@ -91,7 +91,7 @@ const Home = () => {
           </div>
         </Link>
         <Link href="https://nonab.super.site">
-          <a className="text-neutral-400 text-2xs">nonab合同会社(予定)</a>
+          <a className="text-neutral-400 text-[9px]">nonab合同会社(予定)</a>
         </Link>
       </footer>
     </div>
