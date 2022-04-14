@@ -45,7 +45,7 @@ const Home = () => {
 
         <div className="flex flex-col gap-y-14 my-16">
           <div className="flex flex-col gap-y-6">
-            <h2 className="text-blue-900 font-bold text-xl">
+            <h2 className="text-blue-900 font-black text-xl">
               独自のAIが<br/>
               自動で広告をしてくれます
             </h2>
@@ -54,7 +54,7 @@ const Home = () => {
             </p>
           </div>
           <div className="flex flex-col gap-y-6">
-            <h2 className="text-blue-900 font-bold text-xl">
+            <h2 className="text-blue-900 font-black text-xl">
               次回の公演の前売り券を<br/>
               プログラム上で販売できます
             </h2>
