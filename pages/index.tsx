@@ -13,7 +13,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-3/4 my-10">
+      <main className="w-5/6 my-10">
 
         <h1 className="text-2xl font-black tracking-wide leading-relaxed">
           ファンを増やすための<br/>
