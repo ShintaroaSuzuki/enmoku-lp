@@ -15,7 +15,7 @@ const Home = () => {
 
       <main className="w-3/4 my-10">
 
-        <h1 className="text-2xl font-black tracking-wide">
+        <h1 className="text-2xl font-black tracking-wide leading-relaxed">
           ファンを増やすための<br/>
           新しいコンサート運営の<br/>
           プラットフォーム
@@ -29,15 +29,15 @@ const Home = () => {
 
         <div className="flex flex-col gap-y-6 my-16">
           <div className="flex flex-row gap-x-2">
-            <TrendDown size={24} color="#737373"/>
-            <p className="text-neutral-500 text-sm">
+            <TrendDown size={28} color="#737373"/>
+            <p className="text-neutral-500 text-base">
               ありがたいけど<br/>
               いつも見覚えのある顔ばかり...
             </p>
           </div>
           <div className="flex flex-row gap-x-2">
-            <TrendDown size={24} color="#737373"/>
-            <p className="text-neutral-500 text-sm">
+            <TrendDown size={28} color="#737373"/>
+            <p className="text-neutral-500 text-base">
               一度きりのお客さんが多い...
             </p>
           </div>
@@ -84,10 +84,10 @@ const Home = () => {
 
       </main>
 
-      <footer className="flex flex-col gap-y-2 mt-20 mb-10">
+      <footer className="flex flex-col items-center gap-y-2 mt-20 mb-10">
         <Link href="https://nonab.super.site">
           <div className="flex flex-col items-center">
-            <Image src="/nonab_logo_transparent_gray.png" alt="home footer image" width={1892/20} height={566/20}/>
+            <Image src="/nonab_logo_transparent_gray.png" alt="home footer image" width={1892/24} height={566/24}/>
           </div>
         </Link>
         <Link href="https://nonab.super.site">
