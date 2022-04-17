@@ -2,18 +2,19 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Button from "@/components/Button"
+import Footer from "@/components/Footer"
 import { TrendDown } from "iconsax-react"
 
 const Home = () => {
   return (
-    <div className="flex items-center flex-col min-h-screen">
+    <div className="flex items-center flex-col min-h-screen my-10">
       <Head>
         <title>enmoku | ファンを増やすための新しいコンサート運営のプラットフォーム</title>
         <meta name="description" content="enmoku | ファンを増やすための新しいコンサート運営のプラットフォーム" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-5/6 my-10">
+      <main className="w-5/6">
 
         <h1 className="text-2xl font-black tracking-wide leading-relaxed">
           ファンを増やすための<br/>
@@ -28,14 +29,14 @@ const Home = () => {
         <Button />
 
         <div className="flex flex-col gap-y-6 my-16">
-          <div className="flex flex-row gap-x-2">
+          <div className="flex flex-row gap-x-2" data-aos="fade-up">
             <TrendDown size={28} color="#737373"/>
             <p className="text-neutral-500 text-base">
               ありがたいけど<br/>
               いつも見覚えのある顔ばかり...
             </p>
           </div>
-          <div className="flex flex-row gap-x-2">
+          <div className="flex flex-row gap-x-2" data-aos="fade-up">
             <TrendDown size={28} color="#737373"/>
             <p className="text-neutral-500 text-base">
               一度きりのお客さんが多い...
@@ -44,7 +45,7 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col gap-y-14 my-16">
-          <div className="flex flex-col gap-y-6">
+          <div className="flex flex-col gap-y-6" data-aos="fade-up">
             <h2 className="text-blue-900 font-black text-xl">
               独自のAIが<br/>
               自動で広告をしてくれます
@@ -53,7 +54,7 @@ const Home = () => {
               お客さんの属性や開催場所が近いほかのコンサートのプログラムの中に、あなたのコンサートの広告を入れいることができます。この機能により、新しいお客さんの獲得が期待できます。
             </p>
           </div>
-          <div className="flex flex-col gap-y-6">
+          <div className="flex flex-col gap-y-6" data-aos="fade-up">
             <h2 className="text-blue-900 font-black text-xl">
               次回の公演の前売り券を<br/>
               プログラム上で販売できます
@@ -64,7 +65,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-y-6 my-16">
+        <div className="flex flex-col gap-y-6 my-16" data-aos="fade-up">
           <div className="flex flex-row items-center justify-between">
             <h2 className="text-lg font-black">
               プログラムの作成は<br/>
@@ -84,16 +85,7 @@ const Home = () => {
 
       </main>
 
-      <footer className="flex flex-col items-center gap-y-2 mt-20 mb-10">
-        <Link href="https://nonab.super.site">
-          <div className="flex flex-col items-center">
-            <Image src="/nonab_logo_transparent_gray.png" alt="home footer image" width={1892/24} height={566/24}/>
-          </div>
-        </Link>
-        <Link href="https://nonab.super.site">
-          <a className="text-neutral-400 text-[9px]">nonab合同会社(予定)</a>
-        </Link>
-      </footer>
+      <Footer />
     </div>
   )
 }
