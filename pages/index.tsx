@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import Button from "@/components/Button"
 import Footer from "@/components/Footer"
 import { TrendDown } from "iconsax-react"
@@ -28,15 +27,15 @@ const Home = () => {
 
         <Button />
 
-        <div className="flex flex-col gap-y-6 my-16">
-          <div className="flex flex-row gap-x-2" data-aos="fade-up">
+        <div className="flex flex-col gap-y-6 my-16" data-aos="fade-up">
+          <div className="flex flex-row gap-x-2">
             <TrendDown size={28} color="#737373"/>
             <p className="text-neutral-500 text-base">
               ありがたいけど<br/>
               いつも見覚えのある顔ばかり...
             </p>
           </div>
-          <div className="flex flex-row gap-x-2" data-aos="fade-up">
+          <div className="flex flex-row gap-x-2">
             <TrendDown size={28} color="#737373"/>
             <p className="text-neutral-500 text-base">
               一度きりのお客さんが多い...
