@@ -10,7 +10,6 @@ const Home = () => {
       <Head>
         <title>enmoku | ファンを増やすための新しいコンサート運営のプラットフォーム</title>
         <meta name="description" content="enmoku | ファンを増やすための新しいコンサート運営のプラットフォーム" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="w-5/6">
@@ -50,7 +49,7 @@ const Home = () => {
               自動で広告をしてくれます
             </h2>
             <p className="text-sm">
-              お客さんの属性や開催場所が近いほかのコンサートのプログラムの中に、あなたのコンサートの広告を入れいることができます。この機能により、新しいお客さんの獲得が期待できます。
+              お客さんの属性や開催場所が近いほかのコンサートのプログラムの中に、あなたのコンサートの広告を入れることができます。この機能により、新しいお客さんの獲得が期待できます。
             </p>
           </div>
           <div className="flex flex-col gap-y-6" data-aos="fade-up">
