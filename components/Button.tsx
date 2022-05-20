@@ -10,7 +10,7 @@ const Button = () => {
       className="flex items-center justify-center bg-blue-900 h-10 w-full text-white text-sm"
       onClick={onClick}
     >
-      無料ではじめる→
+      無料ではじめる →
     </button>
   );
 };
